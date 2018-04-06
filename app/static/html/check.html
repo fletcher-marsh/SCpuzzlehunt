@@ -1,0 +1,19 @@
+<div data-extend-template="/html/base.html">
+	<div data-block-append="content">
+		<div class="container">
+		<br/>
+			<div ng-if="check_correct1()">
+				<h2> Congratulations! Show this to a TA to receive points for your <span style="background-color: lightgreen;">appetizer</span> salad.</h2>
+			</div>
+			<div ng-if="check_correct2()">
+				<h2> Congratulations! Show this to a TA to receive points for your <span style="background-color: lightgreen;">entree</span> salad.</h2>
+			</div>
+			<div ng-if="!(check_correct1() || check_correct2())">
+				<h2> Uh oh, looks like the recipe wasn't quite correct.</h2>
+				<p>
+				<a href="/#/appetizer" class="btn" class="btn green">Try again!</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
