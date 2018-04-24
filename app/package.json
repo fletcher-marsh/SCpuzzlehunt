@@ -6,8 +6,8 @@
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
   "devDependencies": {
+    "@angular/cli": "^1.7.4",
     "bower": "^1.7.7",
-    "supervisor": "^0.12.0",
     "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.22",
@@ -15,7 +15,9 @@
     "karma-firefox-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.8",
     "karma-junit-reporter": "^0.4.1",
-    "protractor": "^4.0.9"
+    "protractor": "^4.0.9",
+    "supervisor": "^0.12.0",
+    "typescript": "2.3.3"
   },
   "scripts": {
     "express": "^4.14.0",
@@ -35,6 +37,16 @@
   },
   "dependencies": {
     "express": "^4.16.3",
+    "@angular/animations": "4.0.0",
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/router": "4.0.0",
+    "angular2-toaster": "^4.0.1",
     "morgan": "^1.7.0"
   }
 }
